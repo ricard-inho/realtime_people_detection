@@ -8,14 +8,12 @@ conda create -n acemob
 
 **Step 2.** Install pytorch
 
-**Step 3.** Conda and Pip requirements
+**Step 3.** Conda requirements
 ```
-conda install -c conda-forge opencv
+conda install -c conda-forge opencv matplotlib pyyaml seaborn protobuf ipython psutil -y
 conda install -c anaconda pandas
-conda install -c conda-forge matplotlib
-```
-```
-pip install pyyaml tqdm seaborn protobuf ipython psutil
+
+conda install -c anaconda scikit-learn
 ```
 
 **Step 4.** Get weights
